@@ -1,2 +1,8 @@
-# ljp-interp
-applying post-hoc interpretability methods like SHAP to legal judicial prediction (LJP) models and testing robustness through adversarial attacks
+# Legal Judicial Prediction Model Interpretability
+How robust is SHAP in complex judicial models?
+
+AI is being used in the judicial system in early stages, and has the potential to have a great impact by expediting justice. However, one of the key concerns of experts about judicial AI is lack of accountability and transparency in judicial AI, as in, we do not fully understand the decision making processes of the AI. Post-hoc interpretability techniques like SHAP (SHapley Additive exPlanations) address this by providing insight into how different features in the data affect the outcomes. SHAP in particular is a powerful and popular technique as it provides global interpretability across the data-set, as well as local interpretability for a particular decision. 
+
+However SHAP’s main vulnerability is adversarial perturbation, which is when an agent manipulates input features, makes minor adjustments or introduces random noise to change feature importance or SHAP values significantly. Thus, SHAP should be robust, that is the feature importance or SHAP values should remain the same even after minor perturbations and introduction of random noise. SHAP has been found to be robust in precision medicine, especially for simpler models. However, there is a gap in evaluating SHAP in the judicial sector and more complex models. 
+
+In this project we aim to evaluate the robustness of SHAP in more complex models in the judicial sector, using publicly available judicial models. We compare the SHAP Values of a control set of normal inputs against the SHAP Values of a set of perturbed inputs (simulating gradient based adversarial attacks with FGSM) or inputs with added noise. 
