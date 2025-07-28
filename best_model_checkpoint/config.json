@@ -1,0 +1,8 @@
+{
+  "max_len": 512,
+  "batch_size": 16,
+  "epochs": 10,
+  "learning_rate": 2e-05,
+  "best_val_accuracy": 0.6327714838353136,
+  "random_seed": 42
+}

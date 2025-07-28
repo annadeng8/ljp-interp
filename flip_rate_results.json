@@ -1,0 +1,382 @@
+{
+  "synonym_replace": {
+    "flip_rate": 0.058823529411764705,
+    "num_flips": 10,
+    "total_samples": 170,
+    "mean_confidence_change": 0.02613951824605465,
+    "mean_probability_change": 0.040464531630277634,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.6014795303344727
+      }
+    ]
+  },
+  "antonym_replace": {
+    "flip_rate": 0.05389221556886228,
+    "num_flips": 9,
+    "total_samples": 167,
+    "mean_confidence_change": 0.027612360194325447,
+    "mean_probability_change": 0.042741499841213226,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.6228222846984863
+      }
+    ]
+  },
+  "case_upper": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0002338966733077541,
+    "mean_probability_change": 0.00033077970147132874,
+    "examples": []
+  },
+  "case_lower": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0002338966733077541,
+    "mean_probability_change": 0.00033077970147132874,
+    "examples": []
+  },
+  "case_title": {
+    "flip_rate": 0.025,
+    "num_flips": 5,
+    "total_samples": 200,
+    "mean_confidence_change": 0.003150256583467126,
+    "mean_probability_change": 0.005548603367060423,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "Arising Out Of Special Leave Petition Crl. No. 853/[Year] P. Mathur, J. Delay In Filing The Special ...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.513462483882904
+      }
+    ]
+  },
+  "remove_punctuation": {
+    "flip_rate": 0.28,
+    "num_flips": 56,
+    "total_samples": 200,
+    "mean_confidence_change": 0.10064863413572311,
+    "mean_probability_change": 0.19448111951351166,
+    "examples": [
+      {
+        "original": "S. Radhakrishnan,J. Leave granted. The short question that has companye up for companysideration in ...",
+        "transformed": "S RadhakrishnanJ Leave granted The short question that has companye up for companysideration in this...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6044864058494568,
+        "transformed_conf": 0.8120402693748474
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "G Palekar J The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge Silch...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.5904296040534973
+      }
+    ]
+  },
+  "add_periods": {
+    "flip_rate": 0.23,
+    "num_flips": 46,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0988985076546669,
+    "mean_probability_change": 0.17549720406532288,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "Arising out of Special Leave Petition Crl.. No.. 853/[YEAR] P.. MATHUR, J.. Delay in filing the spec...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.6976242661476135
+      },
+      {
+        "original": "S. Radhakrishnan,J. Leave granted. The short question that has companye up for companysideration in ...",
+        "transformed": "S.. Radhakrishnan,J.. Leave granted.. The short question that has companye up for companysideration ...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6044864058494568,
+        "transformed_conf": 0.5107452869415283
+      }
+    ]
+  },
+  "remove_periods": {
+    "flip_rate": 0.2,
+    "num_flips": 40,
+    "total_samples": 200,
+    "mean_confidence_change": 0.09319566935300827,
+    "mean_probability_change": 0.16623149812221527,
+    "examples": [
+      {
+        "original": "S. Radhakrishnan,J. Leave granted. The short question that has companye up for companysideration in ...",
+        "transformed": "S Radhakrishnan,J Leave granted The short question that has companye up for companysideration in thi...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6044864058494568,
+        "transformed_conf": 0.6215659379959106
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "G Palekar, J The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, Sil...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.6060329675674438
+      }
+    ]
+  },
+  "add_commas": {
+    "flip_rate": 0.37,
+    "num_flips": 74,
+    "total_samples": 200,
+    "mean_confidence_change": 0.11747315526008606,
+    "mean_probability_change": 0.26105526089668274,
+    "examples": [
+      {
+        "original": "[YEAR] Supp 4 SCR 163 The Judgment of the Court was delivered by C. LAHOTI, J. The accused-appellant...",
+        "transformed": "[YEAR], Supp, 4, SCR, 163, The, Judgment, of, the, Court, was, delivered, by, C., LAHOTI,, J., The, ...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6062414646148682,
+        "transformed_conf": 0.5933753848075867
+      },
+      {
+        "original": "S. Radhakrishnan,J. Leave granted. The short question that has companye up for companysideration in ...",
+        "transformed": "S., Radhakrishnan,J., Leave, granted., The, short, question, that, has, companye, up, for, companysi...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6044864058494568,
+        "transformed_conf": 0.5158300995826721
+      },
+      {
+        "original": "K. MATHUR, J. Leave granted. This appeal is directed against the order dated [DECIMAL].[YEAR] passed...",
+        "transformed": "K., MATHUR,, J., Leave, granted., This, appeal, is, directed, against, the, order, dated, [DECIMAL]....",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6007126569747925,
+        "transformed_conf": 0.5690017342567444
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "G., Palekar,, J., The, appellant, Moimiddin, Mozumdar, was, companyvicted, by, the, Assistant, Sessi...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.6626698970794678
+      }
+    ]
+  },
+  "double_space": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0002338966733077541,
+    "mean_probability_change": 0.00033077970147132874,
+    "examples": []
+  },
+  "add_newlines": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0,
+    "mean_probability_change": 0.0,
+    "examples": []
+  },
+  "reverse_words": {
+    "flip_rate": 0.46,
+    "num_flips": 92,
+    "total_samples": 200,
+    "mean_confidence_change": 0.11973251402378082,
+    "mean_probability_change": 0.30288147926330566,
+    "examples": [
+      {
+        "original": "S. Radhakrishnan,J. Leave granted. The short question that has companye up for companysideration in ...",
+        "transformed": "jurisdiction. pecuniary of purpose the for Lakhs Rs.30 at suit the valued case, instant the in Plain...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6044864058494568,
+        "transformed_conf": 0.6762714982032776
+      },
+      {
+        "original": "K. MATHUR, J. Leave granted. This appeal is directed against the order dated [DECIMAL].[YEAR] passed...",
+        "transformed": "[SECTION],I.P.C. under offence the companyvert to merit any find number do we circumstances, these u...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6007126569747925,
+        "transformed_conf": 0.6369311809539795
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "interference. for reason numbergood is there and justified was imprisonment rigorous years one of se...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.6924639940261841
+      }
+    ]
+  },
+  "shuffle_words": {
+    "flip_rate": 0.495,
+    "num_flips": 99,
+    "total_samples": 200,
+    "mean_confidence_change": 0.1286797970533371,
+    "mean_probability_change": 0.32191014289855957,
+    "examples": [
+      {
+        "original": "[YEAR] Supp 4 SCR 163 The Judgment of the Court was delivered by C. LAHOTI, J. The accused-appellant...",
+        "transformed": "meaningless expression were To crime shop declared evidence movie in accused the [DECIMAL].[YEAR], a...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6062414646148682,
+        "transformed_conf": 0.6821157932281494
+      },
+      {
+        "original": "K. MATHUR, J. Leave granted. This appeal is directed against the order dated [DECIMAL].[YEAR] passed...",
+        "transformed": "MATHUR, life he went immediately number as did region the injury given escape Maharashtra sentenced ...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6007126569747925,
+        "transformed_conf": 0.8115136027336121
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "1,300/-including that as question been evidence property. number the when P.W. and two studio in com...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.7201459407806396
+      }
+    ]
+  },
+  "reverse_sentences": {
+    "flip_rate": 0.45,
+    "num_flips": 90,
+    "total_samples": 200,
+    "mean_confidence_change": 0.1309664249420166,
+    "mean_probability_change": 0.3316810131072998,
+    "examples": [
+      {
+        "original": "K. MATHUR, J. Leave granted. This appeal is directed against the order dated [DECIMAL].[YEAR] passed...",
+        "transformed": "Therefore, under these circumstances, we do number find any merit to companyvert the offence under [...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.6007126569747925,
+        "transformed_conf": 0.539201021194458
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "The sentence of one years rigorous imprisonment was justified and there is numbergood reason for int...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.6002540588378906
+      }
+    ]
+  },
+  "duplicate_chars": {
+    "flip_rate": 0.47,
+    "num_flips": 94,
+    "total_samples": 200,
+    "mean_confidence_change": 0.12523281574249268,
+    "mean_probability_change": 0.3029255270957947,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "Ariisiing oouut oof Speeciiaal Leeaavee Peetiitiioon Crl. Noo. 853/[YEAR] P. MATHUR, J. Deelaay iin ...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.5472425222396851
+      },
+      {
+        "original": "G. Palekar, J. The appellant Moimiddin Mozumdar was companyvicted by the Assistant Sessions Judge, S...",
+        "transformed": "G. Paaleekaar, J. Thee aappeellaant Mooiimiiddiin Moozuumdaar waas coompaanyviicteed by thee Assiist...",
+        "original_pred": 0,
+        "transformed_pred": 1,
+        "original_conf": 0.5745975971221924,
+        "transformed_conf": 0.5561156272888184
+      }
+    ]
+  },
+  "remove_vowels": {
+    "flip_rate": 0.48,
+    "num_flips": 96,
+    "total_samples": 200,
+    "mean_confidence_change": 0.16915898025035858,
+    "mean_probability_change": 0.4736263155937195,
+    "examples": [
+      {
+        "original": "Arising out of Special Leave Petition Crl. No. 853/[YEAR] P. MATHUR, J. Delay in filing the special ...",
+        "transformed": "rsng t f Spcl Lv Pttn Crl. N. 853/[YR] P. MTHR, J. Dly n flng th spcl lv pttn s cmpnydnd. Lv grntd. ...",
+        "original_pred": 1,
+        "transformed_pred": 0,
+        "original_conf": 0.5432975888252258,
+        "transformed_conf": 0.8590714931488037
+      }
+    ]
+  },
+  "replace_legal_terms": {
+    "flip_rate": 0.05357142857142857,
+    "num_flips": 6,
+    "total_samples": 112,
+    "mean_confidence_change": 0.025167910382151604,
+    "mean_probability_change": 0.038947828114032745,
+    "examples": []
+  },
+  "formal_to_informal": {
+    "flip_rate": 0.012195121951219513,
+    "num_flips": 1,
+    "total_samples": 82,
+    "mean_confidence_change": 0.016701586544513702,
+    "mean_probability_change": 0.023951245471835136,
+    "examples": []
+  },
+  "add_legal_jargon": {
+    "flip_rate": 0.005,
+    "num_flips": 1,
+    "total_samples": 200,
+    "mean_confidence_change": 0.0033470927737653255,
+    "mean_probability_change": 0.005469611845910549,
+    "examples": []
+  },
+  "paraphrase_simple": {
+    "flip_rate": 0.07947019867549669,
+    "num_flips": 12,
+    "total_samples": 151,
+    "mean_confidence_change": 0.028749879449605942,
+    "mean_probability_change": 0.0432913638651371,
+    "examples": []
+  },
+  "add_redundancy": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 200,
+    "mean_confidence_change": 0.006240876857191324,
+    "mean_probability_change": 0.008825931698083878,
+    "examples": []
+  },
+  "remove_adjectives": {
+    "flip_rate": 0.0,
+    "num_flips": 0,
+    "total_samples": 108,
+    "mean_confidence_change": 0.004177836235612631,
+    "mean_probability_change": 0.005908351857215166,
+    "examples": []
+  }
+}
